@@ -1,0 +1,183 @@
+body{
+	min-height: 100vh;
+	width: 98.9vw;
+	background-color: firebrick;
+	margin: 0;
+	padding: 0;
+}
+
+.nvbr{
+
+	margin: auto;
+	height: 9vh;
+	width:  98.9vw;
+	/*margin-bottom: 1.5rem;*/
+
+	background-color: #93B5C6;	
+
+}
+
+.nav_tab_event{
+
+	color: #000000+;
+	font: 3rem;
+	height: 100%;
+	width: 100%;
+	margin: auto
+}
+
+.nav_tab{
+	width: 100%;
+	height: 100%;
+}
+
+.inside_nvbr{
+
+	height: 100%;
+	width: 100%;
+
+	
+	border-radius: 2rem;
+
+	margin-left:1rem ;
+	margin-right:1rem ;
+	overflow: hidden;
+
+	background-color: #FFE3E3;
+
+}
+
+.row_inside_nvbr{
+
+	height: 100%; 
+	width: 100%;
+	margin: none;
+	opacity: 0.5;
+	padding-left: 1%;
+}
+
+.content{
+	width: 80%;
+	height: 500px;
+}
+
+.size_card{
+	margin: auto;
+	height: 30rem;
+	background-color:#FFE3E350;
+	border-radius: 5px;
+	width: 95%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+
+.whole_page{
+
+	width: 100%	;
+	background-color: #93B5C6;
+	padding: 0;
+	margin: 0;
+}
+.main_row{
+	width: 100%;
+	height: 70%;
+}
+.days{
+	border-radius:5px ;
+	margin: 1rem;
+	height: 25rem;
+	transition: all 350ms ease-in-out;
+	position: relative;
+	box-shadow: 20px black;
+}
+.days:hover{
+	border-radius:5px ;
+	transform: scale(1.04);
+	cursor: pointer;
+}
+.display_days{
+	border-radius:5px ;
+	height: 100%;
+	width: 100%;
+	background-color: #E4D8DC;
+	position: absolute;
+	z-index: 10;
+	margin: auto;
+	transition: all 350ms ease-in-out;
+	display: flex;
+	align-items: center;
+
+}
+.display_fonts{
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	/*ackground-color: red;*/
+	text-align: center;
+	font-size: 3rem;
+}
+.display_events{
+	border-radius:5px ;
+	height: 100%;
+	width: 100%;
+	background-color: #FFE3E350;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 1px;
+}
+.display_days:hover{
+	border-radius:5px ;
+	opacity: 0;
+	color: transparent;
+}
+
+.Event_body{
+	height: 80%;
+	width: 100%;
+}
+.Event_footer{
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	background-color: #00000030;
+}
+.Event_header{
+	width: 100%;
+	height: 10%;
+	background-color: #00000030;
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+.more_info{
+	text-decoration: none;
+	color: #00000090;
+}
+
+.footer{
+	width: 100%;
+	height: 10vh;
+	background-color: #FFE3E350;
+	padding: 1rem;
+}
+.ftr1{
+
+	background-color: transparent;
+}
+.icon_facebook{
+	color: #4267B2;
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.icon_instagram{
+	color: #E1306C;
+	
+	height: 2.5rem;
+	width: 2.5rem;
+}
+.icon_twitter{
+	color: #1DA1F2;
+	height: 2.5rem;
+	width: 2.5rem;
+}
